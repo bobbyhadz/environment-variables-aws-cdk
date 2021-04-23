@@ -15,7 +15,8 @@ npm install
 
 3. Deploy with environment variables.
 
-> CHANGE THE REGION TO YOUR PREFERRED REGION
+> CHANGE THE REGION TO YOUR PREFERRED REGION. This is where the stack will be
+> deployed.
 
 ```bash
 REGION=us-east-1 \
