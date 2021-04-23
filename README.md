@@ -15,10 +15,10 @@ npm install
 
 3. Deploy with environment variables.
 
-> Change the Region to your preferred region
+> CHANGE THE REGION TO YOUR PREFERRED REGION
 
 ```bash
-REGION=eu-central-1 \
+REGION=us-east-1 \
 DEPLOYMENT_ENV=dev \
   npx cdk deploy
 ```
