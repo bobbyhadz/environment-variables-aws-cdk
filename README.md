@@ -21,7 +21,7 @@ npm install
 ```bash
 REGION=us-east-1 \
 DEPLOYMENT_ENV=dev \
-  npx cdk deploy
+  npx aws-cdk deploy
 ```
 
 4. Open the AWS CloudFormation Console and the stack should be created in your
@@ -30,5 +30,5 @@ DEPLOYMENT_ENV=dev \
 5. Cleanup
 
 ```bash
-npx cdk destroy
+npx aws-cdk destroy
 ```
